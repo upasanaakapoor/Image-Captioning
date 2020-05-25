@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Caption Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script type="text/javascript" src="main.js"></script>
+	
+</head>
+<body>
+	<nav class="navbar navbar-transparent navbar-fixed-top">
+		<div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tocollapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		  <div class="collapse navbar-collapse" id="tocollapse">
+		  <div class="nav navbar-nav navbar-center">
+			 <li class="active"><a class="navclass" href="main.html">INTRODUCTION</a></li>
+			 <li class="active"><a class="navclass" href="about.html">THE TECHNOLOGY</a></li>
+        <li class="active"><a class="navclass" href="signup.html">SIGN UP </a></li>
+        <li class="active"><a class="navclass" href="login.html">LOG IN</a></li>
+		  </div>
+		  </div>
+    </div>
+  </div>
+  </nav>
+  <div class="container">
+  <h2>Sign Up</h2>
+  <p class="center">Please fill this form to create an account!</p>
+  </div>
+  <form class="form">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <i class="fas fa-user"></i>
+        <label for="inputfirstname">First Name</label>
+        <input type="text" class="form-control" id="inputfirstname" placeholder="First Name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <i class="fas fa-user"></i>
+        <label for="inputlastname">Last Name</label>
+        <input type="text" class="form-control" id="inputlastname" placeholder="Last Name" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <i class="fas fa-envelope"></i>
+      <label for="inputemailid">Email ID</label>
+      <input type="email" class="form-control" id="inputemailid" placeholder="Email Id" required>
+    </div>
+    <div class="form-group">
+      <i class="fas fa-lock"></i>
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Password" required>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+        <label class="form-check-label" for="gridCheck">
+          I accept all the terms and conditions.
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Create an account</button>
+    <div class="form-group">
+      <br>
+    <p>Already have an account? <a href="login.html">Log In here</a></p>
+    </div>
+  </form>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+</body>
+</html>
