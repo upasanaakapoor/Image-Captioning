@@ -1,0 +1,42 @@
+
+.navbar{
+		border-top: 10px solid white;
+		padding-top:3%;
+		padding-left:35%;		}
+.navclass{
+	color:white;
+	font-size: 15px;
+	}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  border: 10px solid white !Important
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 15;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  margin-left:  0%;
+  margin-right:  15%; !Important 
+  width:80%;
+  padding: 20px;
+}
+html{
+	border:10px solid white;
+	padding:14%;
+	}
